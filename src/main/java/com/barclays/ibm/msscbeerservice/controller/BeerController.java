@@ -1,4 +1,4 @@
-package com.barclays.ibm.msscbeerservice;
+package com.barclays.ibm.msscbeerservice.controller;
 
 import com.barclays.ibm.msscbeerservice.model.BeerDto;
 import lombok.RequiredArgsConstructor;
@@ -10,10 +10,10 @@ import java.util.UUID;
 
 @RestController
 @RequiredArgsConstructor
-public class controllerBeerController {
+public class BeerController {
 
-    private static final String BEER_PATH = "/api/v1/beer";
-    private static final String BEER_PATH_ID = BEER_PATH + "/{beerId}";
+    public static final String BEER_PATH = "/api/v1/beer";
+    public static final String BEER_PATH_ID = BEER_PATH + "/{beerId}";
 
     @GetMapping(BEER_PATH_ID)
     public ResponseEntity<BeerDto> getBeerById(@PathVariable("beerId")UUID beerId) {
