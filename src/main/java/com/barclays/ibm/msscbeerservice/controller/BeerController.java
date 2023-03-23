@@ -4,6 +4,7 @@ import com.barclays.ibm.msscbeerservice.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -21,13 +22,13 @@ public class BeerController {
     }
 
     @PostMapping(BEER_PATH)
-    public ResponseEntity<BeerDto> createNewBeer(@RequestBody BeerDto beerDto) {
+    public ResponseEntity<BeerDto> createNewBeer(@Validated @RequestBody BeerDto beerDto) {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @PutMapping(BEER_PATH_ID)
     public ResponseEntity<BeerDto> updateBeerById(@PathVariable("beerId") UUID beerId,
-                                                  @RequestBody BeerDto beerDto) {
+                                                  @Validated @RequestBody BeerDto beerDto) {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
