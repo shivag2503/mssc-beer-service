@@ -1,0 +1,4 @@
+com\barclays\ibm\msscbeerservice\controller\MvcExceptionalHandler.class
+com\barclays\ibm\msscbeerservice\mapper\DateMapper.class
+com\barclays\ibm\msscbeerservice\mapper\BeerMapper.class
+com\barclays\ibm\msscbeerservice\mapper\BeerMapperImpl.class

@@ -1,0 +1,11 @@
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\model\BeerStyle.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\repository\BeerRepository.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\domain\Beer.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\model\BeerDto.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\bootstrap\BootstrapData.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\model\BeerPagedList.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\controller\BeerController.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\mapper\BeerMapper.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\controller\MvcExceptionalHandler.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\mapper\DateMapper.java
+B:\spring\mssc-beer-service\mssc-beer-service\src\main\java\com\barclays\ibm\msscbeerservice\MsscBeerServiceApplication.java
