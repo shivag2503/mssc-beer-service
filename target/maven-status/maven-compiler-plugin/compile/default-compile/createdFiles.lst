@@ -1,4 +1,17 @@
 com\barclays\ibm\msscbeerservice\controller\MvcExceptionalHandler.class
 com\barclays\ibm\msscbeerservice\mapper\DateMapper.class
+com\barclays\ibm\msscbeerservice\model\BeerDto.class
+com\barclays\ibm\msscbeerservice\model\BeerDto$BeerDtoBuilder.class
+com\barclays\ibm\msscbeerservice\repository\BeerRepository.class
+com\barclays\ibm\msscbeerservice\domain\Beer$BeerBuilder.class
+com\barclays\ibm\msscbeerservice\domain\Beer.class
+com\barclays\ibm\msscbeerservice\bootstrap\BootstrapData.class
+com\barclays\ibm\msscbeerservice\servicee\BeerServiceImpl.class
+com\barclays\ibm\msscbeerservice\MsscBeerServiceApplication.class
+com\barclays\ibm\msscbeerservice\controller\NotFoundException.class
 com\barclays\ibm\msscbeerservice\mapper\BeerMapper.class
 com\barclays\ibm\msscbeerservice\mapper\BeerMapperImpl.class
+com\barclays\ibm\msscbeerservice\controller\BeerController.class
+com\barclays\ibm\msscbeerservice\model\BeerPagedList.class
+com\barclays\ibm\msscbeerservice\model\BeerStyle.class
+com\barclays\ibm\msscbeerservice\servicee\BeerService.class
